@@ -95,8 +95,8 @@ if ! command -v imgpkg >>/dev/null; then
 fi
 
 echo "downloading bundle"
-mkdir -p $BUNDLE_PATH
-imgpkg pull -i $BUNDLE_ADDR -o $BUNDLE_PATH
+// mkdir -p $BUNDLE_PATH
+// imgpkg pull -i $BUNDLE_ADDR -o $BUNDLE_PATH
 
 
 ## disable swap
